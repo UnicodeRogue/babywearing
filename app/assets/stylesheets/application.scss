@@ -23,4 +23,14 @@
 */
 
 // Custom bootstrap variables must be set or imported *before* bootstrap.
+
+@import Roboto;
+@font-face {
+   font-family: 'Roboto';
+   src: url('Roboto-Black.ttf') format('truetype');
+}
+
+$font-family-sans-serif: 'Roboto';
+
+$font-family-base: 'Roboto', sans-serif;
 @import "bootstrap";
